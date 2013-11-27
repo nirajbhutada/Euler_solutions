@@ -1,0 +1,16 @@
+row = int(raw_input("Enter the number of rows: "))
+n = row
+while n >= 0:
+    x =  "*" * n
+    y = " " * (row - n)
+    print  x + 2 * y + x
+    n -= 1
+
+i = 0
+n = row
+while n >= 0:
+    x = "*" * i
+    y = " " * (row -i)
+    print x +2* y +  x
+    n -= 1
+    i +=1
